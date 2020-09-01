@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "MarkdownAttributedString",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
         .testTarget(
             name: "MarkdownAttributedStringTests",
             dependencies: ["MarkdownAttributedString"]),
